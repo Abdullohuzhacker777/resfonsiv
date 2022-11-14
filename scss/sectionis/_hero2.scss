@@ -1,0 +1,46 @@
+.coffee-img__position-modify {
+  background-image: url("../../imgs/Group7.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 104px 100px;
+  margin-top: 56px;
+  max-width: 1280px;
+  max-width: 100%;
+  height: 600px;
+}
+@media (max-width: 630px) {
+  .coffee--img__pozition {
+    padding: 30px 25px;
+    height: 350px;
+  }
+}
+.Grea--coffee__made22 {
+  margin-top: 18%;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+@media (max-width: 490px) {
+  .Grea--coffee__made22 {
+    margin-top: 2%;
+    font-size: 42px;
+  }
+}
+.Great__coffee22 {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: space-between;
+  max-width: 449px;
+}
+@media (max-width: 430px) {
+  .Great__coffee22 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

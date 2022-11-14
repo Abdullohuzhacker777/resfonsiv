@@ -1,0 +1,80 @@
+.heder--text__box {
+  max-width: 1111px;
+  margin-left: 60px;
+  position: relative;
+  background-position: center;
+}
+@media (max-width: 1280px) {
+}
+.coffecraf__img {
+  max-width: 1111px;
+  width: 100%;
+  margin-top: 3%;
+  align-items: center;
+  position: absolute;
+  z-index: -1;
+}
+@media (max-width: 1111px) {
+  .coffecraf__img {
+    margin-top: -50px;
+  }
+}
+.Planalto {
+  max-width: 1111px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 1050px) {
+  .Planalto {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.Piccollo {
+  margin-top: 15%;
+  width: 25%;
+  z-index: 2px;
+}
+
+@media (max-width: 1050px) {
+  .text {
+    margin-right: 5%;
+    margin-left: 10%;
+    width: 70%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .Piccollo {
+    display: flex;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (max-width: 630px) {
+  .Piccollo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.Piccollo__h3 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+}
+.Piccollo__p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+}

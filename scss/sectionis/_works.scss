@@ -1,0 +1,127 @@
+// .works {
+//   margin-top: 15%;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+// }
+.How--it__works {
+  margin-top: 15%;
+  margin-left: 7%;
+}
+@media (max-width: 1000px) {
+  .How--it__works {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.How-it-works-p {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+.How-it-works-img {
+  margin-top: 6%;
+  max-width: 80%;
+}
+@media (max-width: 1000px) {
+  .How-it-works-img {
+    display: none;
+  }
+}
+#box--imgs--and__text {
+  display: flex;
+  align-items: center;
+  //   justify-content: space-between;
+  margin-left: 7%;
+  gap: 10%;
+  margin-top: 6%;
+}
+@media (max-width: 1000px) {
+  #box--imgs--and__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.box-imgs-and-text-cart {
+  margin-bottom: 5%;
+  max-width: 285px;
+}
+@media (max-width: 1000px) {
+  .box-imgs-and-text-cart {
+    max-width: 80%;
+    margin-top: 5%;
+    text-align: center;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+  }
+}
+.box-imgs-and-text-cart-h2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  margin-bottom: 67px;
+  color: #fdd6ba;
+}
+.box-imgs-and-text-cart-h3 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 42px;
+  color: #333d4b;
+}
+.box-imgs-and-text-cart-p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #333d4b;
+}
+.box-imgs-and-text-cart-btn {
+  margin-top: 79px;
+  margin-left: 7%;
+  padding: 15px 30px;
+  background: #66d2cf;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+  &:hover {
+    background: #fff;
+    color: #66d2cf;
+    border: 2px solid #66d2cf;
+  }
+}
+.works__cart {
+  max-width: 100%;
+  background-color: #83888f;
+  min-height: 653px;
+}
+@media (max-width: 1000px) {
+  .box-imgs-and-text-cart-btn {
+    margin-left: 40%;
+  }
+}
+@media (max-width: 600px) {
+  .box-imgs-and-text-cart-btn {
+    margin-left: 35%;
+  }
+}
+@media (max-width: 400px) {
+  .box-imgs-and-text-cart-btn {
+    margin-left: 20%;
+  }
+}
